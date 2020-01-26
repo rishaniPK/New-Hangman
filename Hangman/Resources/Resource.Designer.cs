@@ -137,61 +137,58 @@ namespace Hangman
 			public const int btnMedium = 2130837519;
 			
 			// aapt resource value: 0x7F020010
-			public const int btnMusic = 2130837520;
+			public const int btnN = 2130837520;
 			
 			// aapt resource value: 0x7F020011
-			public const int btnN = 2130837521;
+			public const int btnO = 2130837521;
 			
 			// aapt resource value: 0x7F020012
-			public const int btnO = 2130837522;
+			public const int btnP = 2130837522;
 			
 			// aapt resource value: 0x7F020013
-			public const int btnP = 2130837523;
+			public const int btnQ = 2130837523;
 			
 			// aapt resource value: 0x7F020014
-			public const int btnQ = 2130837524;
+			public const int btnR = 2130837524;
 			
 			// aapt resource value: 0x7F020015
-			public const int btnR = 2130837525;
+			public const int btnS = 2130837525;
 			
 			// aapt resource value: 0x7F020016
-			public const int btnS = 2130837526;
+			public const int btnT = 2130837526;
 			
 			// aapt resource value: 0x7F020017
-			public const int btnT = 2130837527;
+			public const int btnU = 2130837527;
 			
 			// aapt resource value: 0x7F020018
-			public const int btnU = 2130837528;
+			public const int btnV = 2130837528;
 			
 			// aapt resource value: 0x7F020019
-			public const int btnV = 2130837529;
+			public const int btnW = 2130837529;
 			
 			// aapt resource value: 0x7F02001A
-			public const int btnW = 2130837530;
+			public const int btnX = 2130837530;
 			
 			// aapt resource value: 0x7F02001B
-			public const int btnX = 2130837531;
+			public const int btnY = 2130837531;
 			
 			// aapt resource value: 0x7F02001C
-			public const int btnY = 2130837532;
+			public const int btnZ = 2130837532;
 			
 			// aapt resource value: 0x7F02001D
-			public const int btnZ = 2130837533;
+			public const int imageView1 = 2130837533;
 			
 			// aapt resource value: 0x7F02001E
-			public const int imageView1 = 2130837534;
+			public const int ivHangman = 2130837534;
 			
 			// aapt resource value: 0x7F02001F
-			public const int ivHangman = 2130837535;
+			public const int linearLayout1 = 2130837535;
 			
 			// aapt resource value: 0x7F020020
-			public const int linearLayout1 = 2130837536;
+			public const int txtGuesses = 2130837536;
 			
 			// aapt resource value: 0x7F020021
-			public const int txtGuesses = 2130837537;
-			
-			// aapt resource value: 0x7F020022
-			public const int txtWord = 2130837538;
+			public const int txtWord = 2130837537;
 			
 			static Id()
 			{

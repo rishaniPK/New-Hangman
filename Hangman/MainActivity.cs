@@ -1,10 +1,10 @@
 ﻿using Android.App;
-using Android.Widget;
-using Android.OS;
-using Android.Views;
-using System;
 using Android.Content;
 using Android.Media;
+using Android.OS;
+using Android.Views;
+using Android.Widget;
+using System;
 
 namespace Hangman
 {
@@ -14,20 +14,13 @@ namespace Hangman
 
     public class MainActivity : Activity
 
-        
+
     {
-        
+
 
         private Button btnEasy;
         private Button btnMedium;
         private Button btnHard;
-        private Button btnMusic;
-       
-        
-       
-            
-
-      
 
         MediaPlayer _player;
 
@@ -55,22 +48,22 @@ namespace Hangman
             btnEasy = FindViewById<Button>(Resource.Id.btnEasy);
             btnMedium = FindViewById<Button>(Resource.Id.btnMedium);
             btnHard = FindViewById<Button>(Resource.Id.btnHard);
-            btnMusic = FindViewById<Button>(Resource.Id.btnMusic);
+
 
             btnEasy.Click += onEasy_Click;
             btnMedium.Click += onMedium_Click;
             btnHard.Click += onHard_Click;
 
-            btnMusic.Click += onMusic_Click;
 
         }
+
 
         private void onEasy_Click(object sender, EventArgs e)
         {
 
             Player.Difficulty = 1;
             Start();
-            
+
 
 
 
@@ -93,37 +86,16 @@ namespace Hangman
             Player.Difficulty = 3;
             Start();
 
-
-
-
         }
 
         private void Start()
         {
             var gameActivity = new Intent(this, typeof(GameActivity));
-           
+
 
             //run the inent and start the other screen passing over the data
             StartActivity(gameActivity);
         }
 
-        private void onMusic_Click(object sender, EventArgs e)
-        {
-            if (Player.Music == false)
-            {
-                _player = MediaPlayer.Create(this, Resource.Raw.Theme);
-                _player.Start();
-                Player.Music = true;
-            }
-            else
-            {
-                _player.Stop();
-                Player.Music = false;
-            }
-            
-        }
-
-
     }
 }
-
